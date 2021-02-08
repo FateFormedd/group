@@ -164,6 +164,14 @@ button{
     padding-bottom: 5%;
 }
 
+.img-class {
+    display: none;
+}
+@media (min-width: 992px) {
+    .img-class {
+         display: block;
+    }
+}
 
 .btn-outline-dark{
     width: 50%;
