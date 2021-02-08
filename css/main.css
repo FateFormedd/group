@@ -40,6 +40,11 @@ button{
 }
 .chat{
     color: blue;
+    font-weight: bolder;
+}
+
+.chat-us{
+
 }
 
 /* Nav and Footer */
