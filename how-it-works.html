@@ -16,13 +16,13 @@
 <title>How it Works</title>
 </head>
 <body>
-
+<!-- navbar -->
     <nav class="navbar navbar-expand-md mt-2">
         <a class="navbar-brand" href="#" >
-            <img src="assets/Logo.png" alt="">
+            <img src="assets/Icons/Logo.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-expanded="false" aria-controls="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
+            <span class="fas fa-bars"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav">
@@ -52,9 +52,7 @@
             </button>
         </form>
     </nav>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
-
+<!-- navbar -->
 
 
   
@@ -199,38 +197,26 @@
 </body>
 
 <footer class="bg-primary text-white text-center text-lg-start">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!--Grid row-->
-        <div class="row">
-    <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
+    <div class="container col-sm-12 p-4">
+        <div class="row mb-5">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0"></div>
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0 foot">
-                <h4 class="text-uppercase text-center">Try Double Tap Today!</h4>
-                <h6 class="text-center">Let's Get Started</h6>
-
-                <form class="d-flex justify-content-center">
-                    <button type="button" class="btn bg-white  btn-sm mx-4 text-nowrap rounded">
-                        <a href="sign-in.html">Get Started >></a>
+                <h1 class="text-center my-4">Try Double Tap Today!</h1>
+                <h6 class="text-center mb-3">Let's Get Started</h6>
+                <form class="d-flex align-items-center justify-content-center mb-4">
+                    <button type="button" class=" btn btn-outline-primary btn-md mx-4 text-nowrap get-started rounded">
+                        <a class="getstarted mx-4 text-white" style="text-decoration: none; height: 20px;"href="sign-up.html">Get Started</a>
+                        <span class="text-white">&raquo;</span>
                     </button>
-                    <button type="button" class="btn bg-white text-nowrap btn-sm rounded">
-                        <img style="height: 20px" src="/assets/Icons/chat_icon.png" alt="chat_icon"> Chat With Us
+                    <button type="button" class="btn bg-white mx-4 text-nowrap btn-sm chat rounded">
+                        <img src="assets/Icons/chat_icon.png" class="mx-2" style="height: 27px;" alt="chat_icon"><span class="mx-3 chat-us">Chat With Us</span>
                     </button>
                 </form>
-                <p class="text-center">Free 14 day trial &#11054; Manage Customers in Minutes &#11054; Cancel at Anytime;</p>
+                <p class="text-center text-nowrap "><small>Free 14 day trial <span class="mx-3">&#11054;</span> Manage Customers in Minutes <span class="mx-3">&#11054;</span> Cancel at Anytime</small></p>
             </div>
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            </div>
-        <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0"></div>
         </div>
-      <!--Grid row-->
     </div>
-    <!-- Grid container -->
-  </footer>
-  
+</footer>
+
 </html>
