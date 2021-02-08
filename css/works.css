@@ -12,17 +12,19 @@
 .card-body{
     background-color: blue;
     color: white;
+}
 
 .card-title{
     color: white;
+
+    margin:10px 10%;
+
     margin: 10px 10%;
+
     text-align: center;
-     
 }   
 .card-text{
     text-decoration-color: white;
     margin:10px 10%;
     text-align: center;
 }    
-
-    
